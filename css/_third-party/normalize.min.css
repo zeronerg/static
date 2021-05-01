@@ -188,10 +188,12 @@ template {
     }
 }
 
-/**普通指针样式**/
-body 
-  cursor url('https://cdn.jsdelivr.net/gh/zeronerg/static@0.1.5/img/Dimato2/Arrow.cur'),default
-/**链接指针样式**/
-a 
-  &:hover 
-    cursor url('https://cdn.jsdelivr.net/gh/zeronerg/static@0.1.5/img/Dimato2/Hand.cur'),pointer
+  body {
+  cursor: url(https://cdn.jsdelivr.net/gh/zeronerg/static@1.0.1/img/Dimato2/Arrow.cur),
+      default;
+  }
+  a,
+  img {
+      cursor: url(https://cdn.jsdelivr.net/gh/zeronerg/static@1.0.1/img/Dimato2/Hand.cur),
+          default;
+}
