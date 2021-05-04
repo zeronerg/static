@@ -15,12 +15,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-github:before {
-  content: "\e7ab";
+.icon-youxiang:before {
+  content: "\e645";
 }
 
-.icon-bilibili:before {
-  content: "\e6b4";
+.icon-gitee-fill-round:before {
+  content: "\e686";
+}
+
+.icon-csdn:before {
+  content: "\e601";
+}
+
+.icon-icon_bilibili:before {
+  content: "\e600";
+}
+
+.icon-github:before {
+  content: "\e7ab";
 }
 
 .icon-bilibili-line:before {
